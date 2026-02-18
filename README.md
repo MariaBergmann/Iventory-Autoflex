@@ -46,6 +46,7 @@ A aplicação segue o padrão de camadas para garantir desacoplamento e testabil
 ## 📸 Visualização do Projeto (Screenshots)
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3542ca84-9d9b-402d-8c11-5645a5fe1dee" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d90125ef-359f-4334-8572-956dd2e09866" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28c548ed-a436-4ea7-8c77-5bfb02965dbd" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/384b79ed-bd21-46c5-8dff-ab012dfd5a0f" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b80eb5b2-af46-4ea0-9322-cbda4e488b8b" />
