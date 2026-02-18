@@ -9,7 +9,7 @@ Esta é uma solução robusta de **Back-End** desenvolvida para gerenciar o cicl
 
 ## 🚀 Sobre o Projeto
 
-Projeto criado para a empresa PROJEDATA, estruturado sob os princípios de **Clean Architecture** e as melhores práticas de **APIs RESTful**. A separação de responsabilidades garante uma manutenção simplificada e facilidade de evolução.
+Projeto criado para a empresa **PROJEDATA**, estruturado sob os princípios de **Clean Architecture** e as melhores práticas de **APIs RESTful**. A separação de responsabilidades garante uma manutenção simplificada e facilidade de evolução.
 
 ### Diferencial Técnico: Sugestão de Produção (RF004)
 
@@ -33,13 +33,26 @@ A lógica de negócio de planejamento utiliza um **Algoritmo Guloso (Greedy)** i
 
 ## 📐 Arquitetura do Sistema
 
-A aplicação segue o padrão de camadas para garantir desacoplamento:
+A aplicação segue o padrão de camadas para garantir desacoplamento e testabilidade:
 
 * **Controller:** Porta de entrada, lida com requisições HTTP e códigos de status.
 * **Service:** O "cérebro" da aplicação, onde residem as regras de negócio.
 * **Repository:** Interface de comunicação direta com o banco via JPA.
 * **Entity:** Mapeamento objeto-relacional (ORM) das tabelas.
 * **DTO (Data Transfer Object):** Segurança e performance no tráfego de dados.
+
+---
+
+## 📸 Visualização do Projeto (Screenshots)
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3542ca84-9d9b-402d-8c11-5645a5fe1dee" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28c548ed-a436-4ea7-8c77-5bfb02965dbd" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/384b79ed-bd21-46c5-8dff-ab012dfd5a0f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b80eb5b2-af46-4ea0-9322-cbda4e488b8b" />
+
+
+
+
 
 ---
 
@@ -70,14 +83,13 @@ A aplicação segue o padrão de camadas para garantir desacoplamento:
 
 1. Crie o banco de dados: `CREATE DATABASE inventory;`
 2. Configure as credenciais no arquivo `src/main/resources/application.properties`:
+
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/inventory
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 
 ```
-
-
 
 ### Execução
 
@@ -121,6 +133,8 @@ O projeto conta com uma suíte de testes unitários focada na integridade das re
 
 ```
 
+> *Print dos testes passando com sucesso:*
+
 **Cenários cobertos:**
 
 * Validação da prioridade por maior valor de venda.
@@ -140,8 +154,6 @@ A API comunica-se através de códigos de status semânticos:
 
 ---
 
-**Desenvolvido como projeto de excelência técnica para controle industrial.**
+**Desenvolvido como projeto de teste técnico.**
 
 ---
-
-Gostaria que eu gerasse o arquivo `README.md` formatado pronto para você baixar ou que eu detalhe como documentar o algoritmo guloso em uma seção técnica separada?
